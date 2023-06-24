@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&family=Raleway:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.60) 31.64%, rgba(51, 51, 51, 0.22) 74.35%, rgba(51, 51, 51, 0.00) 99.87%), url(../../images/main-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__inner {
+    text-align: center;
+
+    &-title {
+      color: #0D302C;
+      font-size: 200px;
+      font-family: Raleway sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    &-subtitle {
+      color: #000;
+      font-size: 24px;
+      font-family: Roboto Condensed sans-serif;
+      letter-spacing: 0.6px;
+    }
+
+    &-link {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      bottom: 92px;
+      cursor: pointer;
+    }
+  }
+}

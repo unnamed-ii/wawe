@@ -1,13 +1,14 @@
 import React from "react";
 import './header.scss';
 import Container from "../Container/container";
+import {ReactComponent as Logo} from '../../images/icons/logo.svg';
 
 const Header = () => {
 
     return (
         <Container>
             <header className="header">
-                <img className="header__logo" src="#"/>
+                <a href="/"><Logo/></a>
                 <nav className="header__nav">
                     <ul className="header__nav-list">
                         <li><a href="#">About</a></li>
