@@ -11,7 +11,7 @@ const Main = ({isSecond}) => {
                 <div className="main__inner">
                     <div className="main__inner-title">WAWE</div>
                     <div className="main__inner-subtitle">Школа серфинга на канарских Островах</div>
-                    <a href="#" className="main__inner-link"><ScrollButton /></a>
+                    <a href="#about-block" className="main__inner-link"><ScrollButton /></a>
                 </div>
             </Container>
         </section>
