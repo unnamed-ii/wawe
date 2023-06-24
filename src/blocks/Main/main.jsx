@@ -3,10 +3,10 @@ import './main.scss';
 import Container from "../../components/Container/container";
 import {ReactComponent as ScrollButton} from "../../images/icons/scroll-button.svg";
 
-const Main = ({isSecond}) => {
+const Main = () => {
 
     return (
-        <section className="main" id={isSecond ? 'second-main' : ''}>
+        <section className="main" id="main">
             <Container>
                 <div className="main__inner">
                     <div className="main__inner-title">WAWE</div>

@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <Container>
             <header className="header">
-                <a href="/"><Logo/></a>
+                <a href="#main"><Logo/></a>
                 <nav className="header__nav">
                     <ul className="header__nav-list">
                         <li><a href="#">About</a></li>
