@@ -1,0 +1,120 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__inner {
+    width: 100%;
+
+    &-title {
+      color: #01353E;
+      font-size: 48px;
+      font-weight: 600;
+      margin-bottom: 60px;
+      text-align: center;
+
+      span {
+        color: #00B2A0;
+        font-size: 72px;
+        font-weight: 600;
+      }
+    }
+
+    &-block {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 200px;
+
+      &__form {
+        max-width: 569px;
+        width: 100%;
+
+        input,
+        textarea {
+          outline: none;
+          display: block;
+          font-size: 18px;
+          line-height: 18px;
+          font-family: Roboto Condensed, sans-serif;
+          border: none;
+          border-bottom: 1px solid #DADADA;
+          padding-bottom: 18px;
+          width: 100%;
+
+          &::placeholder {
+            color: #00B2A0;
+            width: 260px;
+          }
+        }
+
+        input + input {
+          margin-top: 34px;
+          margin-bottom: 55px;
+        }
+
+        textarea {
+          resize: none;
+        }
+
+        button {
+          margin-top: 73px;
+          background-color: #fff;
+          padding: 24px 111px;
+          cursor: pointer;
+          color: #242121;
+          text-align: center;
+          font-size: 24px;
+          line-height: 18px;
+          border-color: #C4C4C4;
+        }
+      }
+
+      &__info {
+        max-width: 600px;
+        width: 100%;
+        background-color: #F8F8F8;
+        padding: 49px 221px 71px 52px;
+        margin-left: 30px;
+
+        ul {
+
+          li {
+            color: #242121;
+            font-family: Roboto Condensed, sans-serif;
+            font-size: 24px;
+            line-height: 30px;
+
+            & + li {
+              margin-top: 65px;
+            }
+          }
+        }
+      }
+    }
+
+    &-social {
+      display: flex;
+      justify-content: center;
+
+      li {
+        font-family: Roboto Condensed, sans-serif;
+
+        & + li {
+          margin-left: 10px;
+        }
+
+        a {
+          color: #242121;
+          font-size: 24px;
+          line-height: 18px;
+          transition: all .3s;
+
+          &:hover {
+            color: #00B2A0;
+          }
+        }
+      }
+    }
+  }
+}
