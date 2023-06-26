@@ -8,6 +8,7 @@ import Team from "./blocks/Team/team";
 import Advantage from "./blocks/Advantages/advantages";
 import Map from "./blocks/Map/map";
 import Contacts from "./blocks/Contacts/contacts";
+import WhyUs from "./blocks/WhyUs/whyus";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Main />
             <About />
             <Advantage />
+            <WhyUs />
             <Team />
             <Services />
             <Map />
