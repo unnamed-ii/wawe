@@ -9,6 +9,7 @@ import Advantage from "./blocks/Advantages/advantages";
 import Map from "./blocks/Map/map";
 import Contacts from "./blocks/Contacts/contacts";
 import WhyUs from "./blocks/WhyUs/whyus";
+import Quote from "./blocks/Quote/quote";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <About />
             <Advantage />
             <WhyUs />
+            <Quote />
             <Team />
             <Services />
             <Map />
