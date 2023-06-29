@@ -1,0 +1,22 @@
+.blog {
+  height: 100vh;
+  
+  .slick-slider {
+
+    button.slick-arrow {
+      display: none;
+    }
+
+    .slick-list {
+      background-color: #000000;
+
+
+      .slick-slide {
+
+        &.slick-cloned {
+          display: none;
+        }
+      }
+    }
+  }
+}

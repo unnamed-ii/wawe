@@ -10,6 +10,7 @@ import Map from "./blocks/Map/map";
 import Contacts from "./blocks/Contacts/contacts";
 import WhyUs from "./blocks/WhyUs/whyus";
 import Quote from "./blocks/Quote/quote";
+import Blog from "./blocks/Blog/blog";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <Advantage />
             <WhyUs />
             <Quote />
+            <Blog />
             <Team />
             <Services />
             <Map />
