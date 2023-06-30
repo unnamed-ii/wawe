@@ -11,6 +11,7 @@ import Contacts from "./blocks/Contacts/contacts";
 import WhyUs from "./blocks/WhyUs/whyus";
 import Quote from "./blocks/Quote/quote";
 import Blog from "./blocks/Blog/blog";
+import InfoVideo from "./blocks/InfoVideo/infovideo";
 
 function App() {
     return (
@@ -21,7 +22,8 @@ function App() {
             <Advantage />
             <WhyUs />
             <Quote />
-            <Blog />
+            <InfoVideo />
+            {/*<Blog />*/}
             <Team />
             <Services />
             <Map />
