@@ -12,6 +12,7 @@ import WhyUs from "./blocks/WhyUs/whyus";
 import Quote from "./blocks/Quote/quote";
 import Blog from "./blocks/Blog/blog";
 import InfoVideo from "./blocks/InfoVideo/infovideo";
+import Gallery from "./blocks/Gallery/gallery";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <About />
             <Advantage />
             <WhyUs />
+            <Gallery />
             <Quote />
             <InfoVideo />
             {/*<Blog />*/}
