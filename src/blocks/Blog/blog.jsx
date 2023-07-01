@@ -34,6 +34,10 @@ const Blog = () => {
 
     return (
         <section className="blog">
+            <div className="blog__title">
+                БЛОГ
+                <span>/</span>
+            </div>
             <Slider {...sliderSettings}>
                 {slides.map(slide => (
                     <div className="blog__slide">
