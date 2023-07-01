@@ -37,7 +37,7 @@ const TrainerCard = ({image, title, subtitle}) => {
 
 const Team = () => {
     return (
-        <section className="team">
+        <section className="team" id="team">
             <Container>
                 <div className="team__inner">
                     <div className="team__inner-title">

@@ -6,7 +6,7 @@ const About = () => {
 
     return (
         <Container>
-            <section className="about" id="about-block">
+            <section className="about" id="about">
                 <div className="about__inner">
                     <div className="about__inner-title">
                         О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ

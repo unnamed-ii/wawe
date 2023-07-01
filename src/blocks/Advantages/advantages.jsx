@@ -65,7 +65,7 @@ const GraphicCard = ({icon, title, percents}) => {
 
 const Advantages = () => {
     return (
-        <section className="advantages">
+        <section className="advantages" id="services">
             <Container>
                 <div className="advantages__inner">
                     <div className="advantages__inner-title">

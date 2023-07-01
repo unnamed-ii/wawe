@@ -65,7 +65,7 @@ const ServiceCard = ({title, text, price}) => {
 
 const Services = () => {
     return (
-        <section className="services">
+        <section className="services" id="prices">
             <Container>
                 <div className="services__inner">
                     <div className="services__inner-title">
