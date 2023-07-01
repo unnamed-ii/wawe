@@ -25,7 +25,7 @@ function App() {
             <Gallery />
             <Quote />
             <InfoVideo />
-            {/*<Blog />*/}
+            <Blog />
             <Team />
             <Services />
             <Map />
