@@ -4,21 +4,6 @@
   &__inner {
     width: 100%;
 
-    &-title {
-      color: #01353E;
-      font-size: 48px;
-      font-weight: 600;
-      margin-bottom: 212px;
-      text-align: center;
-
-      span {
-        color: #00B2A0;
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: 0.6px;
-      }
-    }
-
     &-list {
       display: flex;
       justify-content: space-between;

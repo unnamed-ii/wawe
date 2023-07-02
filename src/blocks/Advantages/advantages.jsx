@@ -8,6 +8,7 @@ import {ReactComponent as SurfingGuyIcon} from "../../images/icons/advantages/se
 import {ReactComponent as ShortestGraphicIcon} from "../../images/icons/advantages/graphics/1.svg";
 import {ReactComponent as AverageGraphicIcon} from "../../images/icons/advantages/graphics/2.svg";
 import {ReactComponent as LongestGraphicIcon} from "../../images/icons/advantages/graphics/3.svg";
+import Title from "../../components/Title/title";
 
 const AdvantagesData = [
     {
@@ -68,9 +69,9 @@ const Advantages = () => {
         <section className="advantages" id="services">
             <Container>
                 <div className="advantages__inner">
-                    <div className="advantages__inner-title">
-                        В ШКОЛЕ ВЫ ПОЛУЧИТЕ <span>/</span>
-                    </div>
+                    <Title
+                        title={"В ШКОЛЕ ВЫ ПОЛУЧИТЕ"}
+                    />
                     <div className="advantages__inner-list">
                         {AdvantagesData.map(advantage => (
                             <AdvantageCard

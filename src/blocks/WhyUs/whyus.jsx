@@ -2,16 +2,17 @@ import React from 'react';
 import './whyus.scss';
 import Container from "../../components/Container/container";
 import contentImage from '../../images/why-us.png';
+import Title from "../../components/Title/title";
 
 const WhyUs = () => {
     return (
         <section className="why-us">
             <Container>
                 <div className="why-us__inner">
-                    <div className="why-us__inner-title">
-                        ПОКОРЯЙ ВЕРШИНЫ
-                        <span>/</span>
-                    </div>
+                    <Title
+                        title={"ПОКОРЯЙ ВЕРШИНЫ"}
+                        isLeft={true}
+                    />
                     <div className="why-us__inner-text">
                         <p>
                             Преподаватели нашей школы серфинга в числе лучших серферов на Канарских островах. Среди них

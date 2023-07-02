@@ -8,23 +8,6 @@
   &__inner {
     width: 100%;
 
-    &-title {
-      margin-bottom: 212px;
-      color: #01353E;
-      font-size: 48px;
-      font-weight: 600;
-      letter-spacing: 0.6px;
-      text-align: center;
-      position: relative;
-
-      span {
-        color: #00B2A0;
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: 0.6px;
-      }
-    }
-
     &-list {
       display: flex;
       justify-content: space-between;

@@ -1,6 +1,7 @@
 import React from "react";
 import './about.scss';
 import Container from "../../components/Container/container";
+import Title from "../../components/Title/title";
 
 const About = () => {
 
@@ -8,10 +9,9 @@ const About = () => {
         <Container>
             <section className="about" id="about">
                 <div className="about__inner">
-                    <div className="about__inner-title">
-                        О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ
-                        <span>/</span>
-                    </div>
+                    <Title
+                        title={"О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ"}
+                    />
                     <div className="about__inner-text">
                         <div className="about__inner-text__column">
                             <p>

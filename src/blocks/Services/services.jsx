@@ -1,6 +1,7 @@
 import React from 'react';
 import './services.scss';
 import Container from "../../components/Container/container";
+import Title from "../../components/Title/title";
 
 const ServicesData = [
     {
@@ -68,10 +69,9 @@ const Services = () => {
         <section className="services" id="prices">
             <Container>
                 <div className="services__inner">
-                    <div className="services__inner-title">
-                        ПАКЕТЫ УСЛУГ
-                        <span>/</span>
-                    </div>
+                    <Title
+                        title={"ПАКЕТЫ УСЛУГ"}
+                    />
                     <div className="services__inner-list">
                         {ServicesData.map(service =>
                             <ServiceCard

@@ -2,6 +2,7 @@ import React from 'react';
 import './team.scss';
 import Container from "../../components/Container/container";
 import trainerImg from '../../images/trainer.png'
+import Title from "../../components/Title/title";
 
 const TeamData = [
     {
@@ -40,10 +41,9 @@ const Team = () => {
         <section className="team" id="team">
             <Container>
                 <div className="team__inner">
-                    <div className="team__inner-title">
-                        НАША КОМАНДА
-                        <span>/</span>
-                    </div>
+                    <Title
+                        title={"НАША КОМАНДА"}
+                    />
                     <div className="team__inner-list">
                         {TeamData.map(trainer =>
                             <TrainerCard

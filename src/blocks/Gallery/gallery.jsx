@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './gallery.scss';
 import Container from "../../components/Container/container";
 import GalleryPhoto1 from '../../images/gallery-photo.png';
+import Title from "../../components/Title/title";
 
 const FiltersListData = [
     'ВСЕ',
@@ -33,10 +34,9 @@ const Gallery = () => {
         <section className="gallery">
             <Container>
                 <div className="gallery__inner">
-                    <div className="gallery__inner-title">
-                        ГАЛЕРЕЯ
-                        <span>/</span>
-                    </div>
+                    <Title
+                        title={"ГАЛЕРЕЯ"}
+                    />
                     <ul className="gallery__inner-filters">
                         {FiltersListData.map(filterName => (
                             <li

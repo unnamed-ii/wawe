@@ -1,0 +1,17 @@
+.block-title {
+  color: #01353E;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  text-align: center;
+
+  &.left {
+    text-align: left;
+  }
+
+  span {
+    color: #00B2A0;
+    font-size: 72px;
+    font-weight: 600;
+  }
+}

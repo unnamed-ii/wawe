@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slide from '../../images/blog.png'
+import Title from "../../components/Title/title";
 
 const slides = [
     {
@@ -34,10 +35,9 @@ const Blog = () => {
 
     return (
         <section className="blog" id="blog">
-            <div className="blog__title">
-                БЛОГ
-                <span>/</span>
-            </div>
+            <Title
+                title={"БЛОГ"}
+            />
             <Slider {...sliderSettings}>
                 {slides.map(slide => (
                     <div className="blog__slide">
