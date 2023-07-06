@@ -8,6 +8,36 @@ import {ReactComponent as LongestGraphicIcon} from "./images/icons/advantages/gr
 import slide from "./images/blog.png";
 import trainerImg from "./images/trainer.png";
 
+// Header Component
+export const HeaderData = [
+    {
+        title: 'About',
+        link: '#about',
+    },
+    {
+        title: 'Services',
+        link: '#services',
+    },
+    {
+        title: 'Prices',
+        link: '#prices',
+    },
+    {
+        title: 'Blog',
+        link: '#blog',
+    },
+    {
+        title: 'Team',
+        link: '#team',
+    },
+    {
+        title: 'Contacts',
+        link: '#contacts',
+    },
+
+
+]
+
 // Advantages Block
 export const AdvantagesListData = [
     {
