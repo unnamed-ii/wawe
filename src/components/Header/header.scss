@@ -1,10 +1,17 @@
 .header {
-  position: fixed;
+  z-index: 1;
   width: 100%;
   display: flex;
-  justify-content: center;
-  padding-top: 35px;
+  padding: 15px 0;
+  position: fixed;
+  transition: all .3s;
   align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+  &.on-scroll {
+    background-color: #00B2A0;
+  }
 
   &__nav {
     margin-left: 185px;
@@ -31,8 +38,8 @@
         a {
           color: #FFF;
           font-size: 24px;
-          font-family: Roboto Condensed, sans-serif;
           letter-spacing: 0.6px;
+          font-family: Roboto Condensed, sans-serif;
         }
       }
     }
