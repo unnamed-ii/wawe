@@ -16,7 +16,7 @@ const WhyUs = () => {
                     />
                     <div className="why-us__inner-text">
                         {WhyUsData.map(paragraph => (
-                            <p>{paragraph.text}</p>
+                            <p>{paragraph}</p>
                         ))}
                     </div>
                 </div>

@@ -24,7 +24,7 @@ const Contacts = () => {
                         <div className="contacts__inner-block__info">
                             <ul>
                                 {ContactsInfoData.map(paragraph => (
-                                    <li>{paragraph.text}</li>
+                                    <li>{paragraph}</li>
                                 ))}
                             </ul>
                         </div>

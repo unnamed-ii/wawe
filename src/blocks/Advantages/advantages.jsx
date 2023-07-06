@@ -69,7 +69,7 @@ const Advantages = () => {
                         </div>
                         <div className="advantages__inner-statistics__info">
                             {AdvantagesInfoData.map(paragraph => (
-                                <p>{paragraph.text}</p>
+                                <p>{paragraph}</p>
                             ))}
                         </div>
                     </div>

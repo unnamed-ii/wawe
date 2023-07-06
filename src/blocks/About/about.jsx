@@ -15,12 +15,12 @@ const About = () => {
                     <div className="about__inner-text">
                         <div className="about__inner-text__column">
                             {AboutLeftColumnData.map(paragraph => (
-                                <p>{paragraph.text}</p>
+                                <p>{paragraph}</p>
                             ))}
                         </div>
                         <div className="about__inner-text__column">
                             {AboutRightColumnData.map(paragraph => (
-                                <p>{paragraph.text}</p>
+                                <p>{paragraph}</p>
                             ))}
                         </div>
                     </div>
