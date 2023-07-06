@@ -1,34 +1,14 @@
 import React, {useState} from 'react';
 import './gallery.scss';
 import Container from "../../components/Container/container";
-import GalleryPhoto1 from '../../images/gallery-photo.png';
 import Title from "../../components/Title/title";
-
-const FiltersListData = [
-    'ВСЕ',
-    'ТУРИСТЫ',
-    'ПРИРОДА',
-    'ПРОФИ'
-]
-
-const GalleryPhotosData = [
-    [GalleryPhoto1],
-    [GalleryPhoto1],
-    [GalleryPhoto1],
-    [GalleryPhoto1],
-    [GalleryPhoto1],
-    [GalleryPhoto1],
-    [GalleryPhoto1]
-]
+import {GalleryFiltersListData, GalleryPhotosData} from "../../constants";
 
 const Gallery = () => {
-    const [activeFilter, setActiveFilter] = useState('ВСЕ');
-    const changeActiveFilter = (filterName) => {
-        console.log(filterName)
-        setActiveFilter(filterName);
-    }
+    const [activeFilter, setActiveFilter] = useState('all');
 
-    const setImageClassName = idx => idx === 0 || idx % 5 === 0;
+    const changeActiveFilter = (filterName) => setActiveFilter(filterName);
+    const setImageClassName = (idx) => idx === 0 || idx % 5 === 0;
 
     return (
         <section className="gallery">
@@ -38,10 +18,11 @@ const Gallery = () => {
                         title={"ГАЛЕРЕЯ"}
                     />
                     <ul className="gallery__inner-filters">
-                        {FiltersListData.map(filterName => (
+                        {GalleryFiltersListData.map(filterName => (
                             <li
                                 onClick={() => changeActiveFilter(filterName)}
-                                className={(activeFilter === filterName ? 'active' : '')}>
+                                className={(activeFilter === filterName ? 'active' : '')}
+                            >
                                 {filterName}
                             </li>
                         ))}
@@ -49,9 +30,10 @@ const Gallery = () => {
                     <div className="gallery__inner-photos">
                         {GalleryPhotosData.map((photo, idx) => (
                             <img
-                                src={photo}
+                                src={photo.image}
                                 alt="image"
-                                className={(setImageClassName(idx) ? 'wide' : '')}
+                                className={(setImageClassName(idx) ? "wide" : "")}
+                                style={{display: activeFilter === photo.filter || activeFilter === 'all' ? "block" : "none"}}
                             />
                         ))}
                     </div>

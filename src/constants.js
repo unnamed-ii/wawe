@@ -7,6 +7,7 @@ import {ReactComponent as AverageGraphicIcon} from "./images/icons/advantages/gr
 import {ReactComponent as LongestGraphicIcon} from "./images/icons/advantages/graphics/3.svg";
 import slide from "./images/blog.png";
 import trainerImg from "./images/trainer.png";
+import GalleryPhoto1 from "./images/gallery-photo.png";
 
 // Header Component
 export const HeaderData = [
@@ -101,6 +102,45 @@ export const WhyUsData = [
     'Преподаватели нашей школы серфинга в числе лучших серферов на Канарских островах. Среди них - чемпион Европы по лонгборду, который с радостью поделится опытом как с новичками, так и более опытными серферами. Все члены преподавательского состава являются сертифицированными членами Федерации серфинга Канарских островов. Некоторые из них знают русский язык, что определенно позиционирует нас как русскую школу серфинга за границей!',
     'Весь тренерский состав регулярно участвует в семинарах и курсах повышения квалификации, которые проводятся по всему миру различными известными серф-клубами и федерациями. Поэтому в нашей школе серфинга вы можете быть спокойны: вас обучают лучшие тренеры!',
     'Методика обучения серфингу рассчитана как на новичков, на серферов среднего уровня, так и на серферов уровня ТОП. Тренеры находят подход к каждому, несмотря на то, что обучение серфингу в нашей школе производится в группах. Однако, мы предлагаем персональные уроки серфинга - только вы и тренер!'
+];
+
+// Gallery Block
+export const GalleryFiltersListData = [
+    'all',
+    'tourists',
+    'nature',
+    'professional'
+];
+
+export const GalleryPhotosData = [
+    {
+        image: GalleryPhoto1,
+        filter: 'tourists'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'professional'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'nature'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'tourists'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'nature'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'professional'
+    },
+    {
+        image: GalleryPhoto1,
+        filter: 'professional'
+    }
 ];
 
 // InfoVideo Block
