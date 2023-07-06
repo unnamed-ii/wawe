@@ -3,26 +3,8 @@ import './blog.scss';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import slide from '../../images/blog.png'
 import Title from "../../components/Title/title";
-
-const slides = [
-    {
-        url: slide,
-        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
-        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
-    },
-    {
-        url: slide,
-        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
-        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
-    },
-    {
-        url: slide,
-        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
-        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
-    },
-]
+import {BlogData} from "../../constants";
 
 const Blog = () => {
     const sliderSettings = {
@@ -39,9 +21,9 @@ const Blog = () => {
                 title={"БЛОГ"}
             />
             <Slider {...sliderSettings}>
-                {slides.map(slide => (
+                {BlogData.map(slide => (
                     <div className="blog__slide">
-                        <img src={slide.url} alt="" className="blog__slide-image"/>
+                        <img src={slide.image} alt="" className="blog__slide-image"/>
                         <div className="blog__slide-text">
                             <h3 className="blog__slide-text__title">{slide.title}</h3>
                             <h5 className="blog__slide-text__subtitle">{slide.subtitle}</h5>

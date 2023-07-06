@@ -5,6 +5,7 @@ import {ReactComponent as SurfingGuyIcon} from "./images/icons/advantages/serfin
 import {ReactComponent as ShortestGraphicIcon} from "./images/icons/advantages/graphics/1.svg";
 import {ReactComponent as AverageGraphicIcon} from "./images/icons/advantages/graphics/2.svg";
 import {ReactComponent as LongestGraphicIcon} from "./images/icons/advantages/graphics/3.svg";
+import slide from "./images/blog.png";
 
 // Advantages Block
 export const AdvantagesListData = [
@@ -114,5 +115,24 @@ export const InfoVideoData = [
     {
         number: '365',
         text: 'дней в году'
+    },
+]
+
+// Blog Block
+export const BlogData = [
+    {
+        image: slide,
+        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
+        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
+    },
+    {
+        image: slide,
+        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
+        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
+    },
+    {
+        image: slide,
+        title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
+        subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
     },
 ]
