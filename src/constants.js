@@ -52,7 +52,7 @@ export const AdvantagesInfoData = [
     {
         text: 'Именно наша методика и наши преподаватели позволили нам пройти аттестацию Федерации серфинга Канарских островов - FEDERACIÓN CANARIA DE SURF. Это означает, что наша школа соответствует всем мировым стандартам. Переаттестация производится ежегодно и это позволяет нам всегда стремиться к улучшению обучения.'
     },
-]
+];
 
 
 // About Block
@@ -69,7 +69,7 @@ export const AboutLeftColumnData = [
     {
         text: 'Перечисляя достоинства, нельзя обойти и то, что пляжи Фуэртевентуры самые протяженные на Канарах. В итоге невозможно представить их переполненных туристами. Вы столкнетесь только с теми, кого,как и вас, будет интересовать одна цель – обучение серфингу.',
     },
-]
+];
 
 export const AboutRightColumnData = [
     {
@@ -84,7 +84,7 @@ export const AboutRightColumnData = [
     {
         text: 'Сначала мы определяем уровень катания и физической подготовки и только потом составляем программу подготовки. И можем заверить, что после того, как закончится обучение, вы не только получите массу великолепных ощущений, но и это уровень поднимется на новую ступень.',
     },
-]
+];
 
 // WhyUs Block
 export const WhyUsData = [
@@ -97,7 +97,7 @@ export const WhyUsData = [
     {
         text: 'Методика обучения серфингу рассчитана как на новичков, на серферов среднего уровня, так и на серферов уровня ТОП. Тренеры находят подход к каждому, несмотря на то, что обучение серфингу в нашей школе производится в группах. Однако, мы предлагаем персональные уроки серфинга - только вы и тренер!',
     },
-]
+];
 
 // InfoVideo Block
 export const InfoVideoData = [
@@ -117,7 +117,7 @@ export const InfoVideoData = [
         number: '365',
         text: 'дней в году'
     },
-]
+];
 
 // Blog Block
 export const BlogData = [
@@ -136,7 +136,7 @@ export const BlogData = [
         title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
         subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
     },
-]
+];
 
 // Team Block
 export const TeamData = [
@@ -155,7 +155,7 @@ export const TeamData = [
         subtitle: 'Инстуктор',
         image: trainerImg,
     },
-]
+];
 
 // Services Block
 export const ServicesData = [
@@ -199,4 +199,36 @@ export const ServicesData = [
         ],
         price: '1450'
     }
+];
+
+// Contacts Block
+export const ContactsInfoData = [
+    {
+        text: 'Есть вопрос?\n' +
+            'Вы можете связаться с нами:',
+    },
+    {
+        text: 'WhatsApp, Viber, Telegram\n' +
+            '+3 467 486-37-88',
+    },
+    {
+        text: 'Avenida grandes playas 79,\n' +
+            'Corralejo la Oliva Fuerteventura,\n' +
+            'Spain. 35660',
+    },
+]
+
+export const ContactsSocialData = [
+    {
+        title: 'INSTAGRAM',
+        link: 'https://www.instagram.com/'
+    },
+    {
+        title: 'FACEBOOK',
+        link: 'https://www.facebook.com/'
+    },
+    {
+        title: 'YOUTUBE',
+        link: 'https://youtube.com/'
+    },
 ]
