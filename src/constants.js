@@ -6,6 +6,7 @@ import {ReactComponent as ShortestGraphicIcon} from "./images/icons/advantages/g
 import {ReactComponent as AverageGraphicIcon} from "./images/icons/advantages/graphics/2.svg";
 import {ReactComponent as LongestGraphicIcon} from "./images/icons/advantages/graphics/3.svg";
 import slide from "./images/blog.png";
+import trainerImg from "./images/trainer.png";
 
 // Advantages Block
 export const AdvantagesListData = [
@@ -134,5 +135,24 @@ export const BlogData = [
         image: slide,
         title: 'ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР',
         subtitle: 'ТОП 20 необходимых вещей для комфортного отдыха и обучения'
+    },
+]
+
+// Team Block
+export const TeamData = [
+    {
+        title: 'Mike',
+        subtitle: 'Главный инстуктор',
+        image: trainerImg,
+    },
+    {
+        title: 'Bob',
+        subtitle: 'Инстуктор',
+        image: trainerImg,
+    },
+    {
+        title: 'Tim',
+        subtitle: 'Инстуктор',
+        image: trainerImg,
     },
 ]

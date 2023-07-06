@@ -1,26 +1,8 @@
 import React from 'react';
 import './team.scss';
 import Container from "../../components/Container/container";
-import trainerImg from '../../images/trainer.png'
 import Title from "../../components/Title/title";
-
-const TeamData = [
-    {
-        title: 'Mike',
-        subtitle: 'Главный инстуктор',
-        image: trainerImg,
-    },
-    {
-        title: 'Bob',
-        subtitle: 'Инстуктор',
-        image: trainerImg,
-    },
-    {
-        title: 'Tim',
-        subtitle: 'Инстуктор',
-        image: trainerImg,
-    },
-]
+import {TeamData} from "../../constants";
 
 const TrainerCard = ({image, title, subtitle}) => {
     return (
