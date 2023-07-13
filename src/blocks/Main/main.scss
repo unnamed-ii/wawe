@@ -1,12 +1,12 @@
 .main {
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.60) 31.64%, rgba(51, 51, 51, 0.22) 74.35%, rgba(51, 51, 51, 0.00) 99.87%), url(../../images/main-bg.png);
+  background-size: cover;
+  justify-content: center;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-image: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.60) 31.64%, rgba(51, 51, 51, 0.22) 74.35%, rgba(51, 51, 51, 0.00) 99.87%), url(../../images/main-bg—compressed.png);
 
   &__inner {
     text-align: center;
